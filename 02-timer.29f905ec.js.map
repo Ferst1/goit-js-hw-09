@@ -1,1 +1,0 @@
-{"mappings":"AAAYA,SAASC,cAAc","sources":["src/js/02-timer.js"],"sourcesContent":["const day = document.querySelector('data-days');\n"],"names":["document","querySelector"],"version":3,"file":"02-timer.29f905ec.js.map"}
