@@ -6,3 +6,12 @@ function createPromise(position, delay) {
     // Reject
   }
 }
+
+// Пример использования Notiflix для отображения уведомлений
+function showNotification() {
+  Notiflix.Notify.success('Уведомление успешно отображено!');
+}
+
+// Вызов функции при клике на кнопку "Показать уведомление"
+const showButton = document.getElementById('showButton');
+showButton.addEventListener('click', showNotification);

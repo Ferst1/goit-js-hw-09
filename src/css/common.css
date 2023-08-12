@@ -16,3 +16,31 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  font-size: 26px;
+  gap: 15px;
+
+
+}
+
+.label {
+  font-size: 18px;
+}
+
+.flatpickr-input {
+
+  width: 210px;
+  height: 35px;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+button {
+  height: 35px;
+}
+
+.field {
+  display: grid;
+}
