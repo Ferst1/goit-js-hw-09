@@ -9,6 +9,8 @@ stopButton.addEventListener('click', stopColorChanging);
 function startColorChanging() {
   if (intervalId === null) {
     intervalId = setInterval(changeBackgroundColor, 1000);
+    startButton.disabled = true;
+    stopButton.disabled = false;
   }
 }
 
@@ -16,6 +18,7 @@ function stopColorChanging() {
   clearInterval(intervalId);
   intervalId = null;
   startButton.disabled = false;
+  stopButton.disabled = true;
 }
 
 function changeBackgroundColor() {
